@@ -1,0 +1,56 @@
+.form-group label {
+    color: #888;
+}
+
+.text-bold,
+.bold {
+    font-weight: bold;
+}
+
+.homepage-header {
+    background: rgb(52, 89, 230);
+    background: linear-gradient(
+        180deg,
+        rgba(52, 89, 230, 1) 0%,
+        rgba(255, 255, 255, 1) 100%
+    );
+
+    padding-bottom: 400px !important;
+}
+
+.grid-img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-right: 2px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.3s ease-in;
+}
+
+.grid-img:hover {
+    opacity: 0.95;
+}
+
+.active-img {
+    opacity: 1;
+    border: 2px solid #3459e6;
+}
+
+.footer-links a {
+    margin-left: 4px;
+    margin-right: 4px;
+    color: #f4f4f4 !important;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+footer .copyright {
+    background: rgba(0, 0, 0, 0.1);
+}
